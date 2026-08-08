@@ -31,8 +31,16 @@
         {%- comment -%}
           Anadido sobre la plantilla original: si `author.employer_url` esta
           definido en _config.yml, el nombre del empleador se vuelve un enlace.
+
+          El icono va DENTRO del <a>, como en el resto de enlaces de la barra:
+          .author__urls a es display:block, asi que un icono por fuera empuja
+          el texto del enlace a la linea siguiente.
         {%- endcomment -%}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{% if author.employer_url %}<a href="{{ author.employer_url }}">{{ author.employer }}</a>{% else %}{{ author.employer }}{% endif %}</li>
+        {%- if author.employer_url -%}
+          <li class="author__desktop"><a href="{{ author.employer_url }}"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</a></li>
+        {%- else -%}
+          <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+        {%- endif -%}
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
