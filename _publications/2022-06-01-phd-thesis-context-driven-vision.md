@@ -11,4 +11,4 @@ citation: 'Alejandro López-Cifuentes. (2022). &quot;Context-Driven Vision for I
 
 Doctoral thesis carried out at the [Video Processing and Understanding Lab (VPU)](http://www-vpu.eps.uam.es/) of the Universidad Autónoma de Madrid under an FPI fellowship from the Spanish Ministry of Science, Innovation and Universities, supervised by Marcos Escudero-Viñolo and Jesús Bescós. Defended in June 2022 with the Cum Laude distinction.
 
-The central argument is that context — the semantics of what surrounds an object, not just the object itself — is an underused signal in deep visual models, and that making it explicit improves scene recognition, multi-camera detection and action recognition alike.
+The central argument is that context is an underused signal in deep visual models, meaning the semantics of what surrounds an object and not only the object itself, and that making it explicit improves scene recognition, multi-camera detection and action recognition alike.

@@ -10,4 +10,4 @@ paperurl: 'https://doi.org/10.1007/978-3-030-68796-0_9'
 citation: 'Alejandro López-Cifuentes, Marcos Escudero-Viñolo, Andrija Gajić, Jesús Bescós. (2021). &quot;Visualizing the Effect of Semantic Classes in the Attribution of Scene Recognition Models.&quot; <i>ICPR Workshops</i>, LNCS, pp. 115–129.'
 ---
 
-Rather than perturbing arbitrary pixel patches, this method perturbs whole semantic classes and measures how the scene prediction shifts — producing attribution maps that answer "which *things* does the model use?" instead of "which pixels?".
+Rather than perturbing arbitrary pixel patches, this method perturbs whole semantic classes and measures how the scene prediction shifts, producing attribution maps that answer "which *things* does the model use?" instead of "which pixels?".

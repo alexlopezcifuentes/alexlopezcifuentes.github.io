@@ -1,8 +1,8 @@
 ---
 permalink: /
 title: "Alex López-Cifuentes"
-seo_title: "Alex López-Cifuentes — Lead Research Scientist, Computer Vision for Earth Observation"
-description: "Alex López-Cifuentes (Alejandro López-Cifuentes), PhD — Lead Research Scientist at Xoople in Madrid. Computer vision and deep learning for Earth observation: foundation models, EO embeddings and land-cover analysis."
+seo_title: "Alex López-Cifuentes, Lead Research Scientist in Computer Vision for Earth Observation"
+description: "Alex López-Cifuentes (Alejandro López-Cifuentes), PhD, Lead Research Scientist at Xoople in Madrid. Computer vision and deep learning for Earth observation, including foundation models, EO embeddings and land cover analysis."
 author_profile: true
 redirect_from:
   - /about/
@@ -18,11 +18,11 @@ redirect_from:
 
 I am **Alex López-Cifuentes**, a Lead Research Scientist at [Xoople](https://www.xoople.es/), where I lead research on computer vision and deep learning for **Earth observation**. I hold a PhD in computer vision from the [Universidad Autónoma de Madrid](https://www.uam.es), and I am based in Madrid, Spain.
 
-My work is about turning raw satellite imagery into representations that are actually useful downstream: foundation models for Earth observation, self-supervised embeddings over multi-modal satellite time series, and the practical question that follows from them — how stable and how transferable are those representations when you push them at real tasks such as land-cover classification and Earth surface monitoring.
+My work is about turning raw satellite imagery into representations that are actually useful downstream. That means foundation models for Earth observation and self-supervised embeddings over multimodal satellite time series, and then the practical question that follows from them. How stable and how transferable are those representations when you push them at real tasks such as land cover classification and Earth surface monitoring?
 
 I came to Earth observation through industry rather than straight from academia. After my doctorate I was a senior computer vision engineer at Dive.tech and then Head of Research at Bronze, where I built the AI platform behind the company's computer vision products, before joining Xoople.
 
-The doctorate, at the [Video Processing and Understanding Lab](http://www-vpu.eps.uam.es/) of the Universidad Autónoma de Madrid, circled one recurring idea: that **context** — the semantics of what surrounds an object, not just the object itself — is an underused signal in visual recognition. That thread runs through my work on scene recognition, multi-camera pedestrian detection, knowledge distillation and the explainability of deep visual models. Before it I read the [IPCV Erasmus Mundus master's](https://ipcv.eu/) across Budapest, Bordeaux and Madrid, and trained originally as a telecommunications engineer.
+The doctorate, at the [Video Processing and Understanding Lab](http://www-vpu.eps.uam.es/) of the Universidad Autónoma de Madrid, circled one recurring idea. **Context** is an underused signal in visual recognition, by which I mean the semantics of what surrounds an object and not only the object itself. That thread runs through my work on scene recognition, multi-camera pedestrian detection, knowledge distillation and the explainability of deep visual models. Before it I read the [IPCV Erasmus Mundus master's](https://ipcv.eu/) across Budapest, Bordeaux and Madrid, and trained originally as a telecommunications engineer.
 
 I review for IEEE Transactions on Pattern Analysis and Machine Intelligence, IEEE Transactions on Image Processing, IEEE Transactions on Circuits and Systems for Video Technology, and Elsevier Pattern Recognition.
 

@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Alex López-Cifuentes"
 title_separator          : "·"  # ojo: NO usar "|" aqui, kramdown lo interpreta como tabla y se come el titulo
 name                     : &name "Alex López-Cifuentes"
-description              : &description "Lead Research Scientist at Xoople. Computer vision and deep learning for Earth observation: foundation models, EO embeddings and land-cover analysis."
+description              : &description "Lead Research Scientist at Xoople. Computer vision and deep learning for Earth observation, including foundation models, EO embeddings and land cover analysis."
 url                      : https://alexlopezcifuentes.github.io # The base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "alexlopezcifuentes/alexlopezcifuentes.github.io"
