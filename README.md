@@ -76,13 +76,19 @@ docker compose up          # primera vez tarda unos minutos
 ```
 
 Abre <http://localhost:4000>. Se recarga solo al guardar un fichero, **excepto**
-`_config.yml`: si tocas ese, para con `Ctrl+C` y vuelve a levantar.
+`_config.yml`: si tocas ese, `docker compose restart`.
 
 Para comprobar que compila sin errores, igual que hace el CI:
 
 ```bash
-docker compose run --rm jekyll-site jekyll build --strict_front_matter
+docker compose run --rm jekyll-site jekyll build --strict_front_matter --destination /tmp/_site_check
 ```
+
+El `--destination` no es opcional. Ese comando compila con `_config.yml` a
+secas, es decir con `url: https://alexlopezcifuentes.github.io`, y si lo dejas
+escribir en `_site/` machaca lo que esta sirviendo el contenedor: la web sigue
+cargando pero busca el CSS en el dominio de produccion y la ves sin estilos.
+Si te pasa, se arregla con `docker compose restart`.
 
 ## Publicar
 
