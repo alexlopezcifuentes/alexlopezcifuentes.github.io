@@ -2,7 +2,7 @@
 title: "Characterizing a Scene Recognition Model by Identifying the Effect of Input Features via Semantic-Wise Attribution"
 collection: publications
 category: chapters
-permalink: /publication/2023-semantic-wise-attribution
+permalink: /publication/2023-semantic-wise-attribution/
 excerpt: 'Book chapter on explaining scene recognition models by attributing their decisions to semantically meaningful regions of the input.'
 date: 2023-01-01
 venue: 'Explainable Deep Learning AI: Methods and Challenges (Elsevier)'

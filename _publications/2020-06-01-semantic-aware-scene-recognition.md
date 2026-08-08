@@ -2,7 +2,7 @@
 title: "Semantic-Aware Scene Recognition"
 collection: publications
 category: manuscripts
-permalink: /publication/2020-semantic-aware-scene-recognition
+permalink: /publication/2020-semantic-aware-scene-recognition/
 excerpt: 'A two-branch CNN that combines RGB imagery with semantic segmentation through a learned attention model, reaching state of the art on ADE20K, MIT Indoor 67, SUN 397 and Places365.'
 date: 2020-06-01
 venue: 'Pattern Recognition'

@@ -2,7 +2,7 @@
 title: "Semantic-Driven Multi-Camera Pedestrian Detection"
 collection: publications
 category: manuscripts
-permalink: /publication/2022-semantic-driven-multi-camera-pedestrian-detection
+permalink: /publication/2022-semantic-driven-multi-camera-pedestrian-detection/
 excerpt: 'Using semantic segmentation to drive the fusion of detections across multiple overlapping cameras, without requiring pedestrian-level supervision in every view.'
 date: 2022-05-01
 venue: 'Knowledge and Information Systems'

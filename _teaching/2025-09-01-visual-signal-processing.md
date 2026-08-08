@@ -2,7 +2,7 @@
 title: "Visual Signal Processing, and Signals and Systems"
 collection: teaching
 type: "Undergraduate teaching"
-permalink: /teaching/2025-visual-signal-processing
+permalink: /teaching/2025-visual-signal-processing/
 excerpt: "Substitute lecturer running the practical sessions of visual signal processing and of signals and systems, in the degree in Telecommunication Technologies and Services Engineering."
 date: 2025-09-01
 venue: "Universidad Autónoma de Madrid, Escuela Politécnica Superior"

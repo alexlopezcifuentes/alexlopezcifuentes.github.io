@@ -2,7 +2,7 @@
 title: "Image and Video Technologies, and Digital Television Laboratory"
 collection: teaching
 type: "Undergraduate teaching"
-permalink: /teaching/2024-image-video-technologies
+permalink: /teaching/2024-image-video-technologies/
 excerpt: "Substitute lecturer covering the theory of image and video technologies and the digital television laboratory, in the degree in Telecommunication Technologies and Services Engineering."
 date: 2024-02-15
 venue: "Universidad Autónoma de Madrid, Escuela Politécnica Superior"

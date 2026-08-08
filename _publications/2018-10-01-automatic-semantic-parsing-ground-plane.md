@@ -2,7 +2,7 @@
 title: "Automatic Semantic Parsing of the Ground Plane in Scenarios Recorded with Multiple Moving Cameras"
 collection: publications
 category: manuscripts
-permalink: /publication/2018-automatic-semantic-parsing-ground-plane
+permalink: /publication/2018-automatic-semantic-parsing-ground-plane/
 excerpt: 'Automatically recovering a semantic description of the ground plane in scenes captured by several moving cameras.'
 date: 2018-10-01
 venue: 'IEEE Signal Processing Letters'

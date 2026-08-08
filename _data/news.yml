@@ -12,7 +12,7 @@
 #     image: figura.jpg       <- opcional. Fichero dentro de images/news/
 #     image_alt: >-           <- opcional pero recomendable: describe la imagen
 #       Que se ve en la figura, para lectores de pantalla y buscadores.
-#     url: /publication/slug  <- opcional. Hace la miniatura clicable.
+#     url: /publication/slug/  <- opcional. Hace la miniatura clicable.
 #
 # Para las miniaturas: recorta la figura del paper de forma que se entienda a
 # tamano pequeno (unos 150 px de ancho en pantalla) y exportala a unos 420 px
@@ -32,12 +32,12 @@
   image_alt: >-
     Optimisation trajectory of the agentic autoresearch run, a rising green
     staircase approaching the dashed parity line with the best published model.
-  url: /publication/2026-agentic-autoresearch-eo-benchmark
+  url: /publication/2026-agentic-autoresearch-eo-benchmark/
 
 - date: 2026-06-03
   text: >-
     Presented
-    [*Temporal Sensitivity of TESSERA Embeddings for Land-Cover Classification*](/publication/2026-tessera-temporal-sensitivity)
+    [*Temporal Sensitivity of TESSERA Embeddings for Land-Cover Classification*](/publication/2026-tessera-temporal-sensitivity/)
     at the MORSE workshop at CVPR 2026 in Denver.
 
 - date: 2025-04-01

@@ -2,7 +2,7 @@
 title: "Identificación Automática de Materiales Usando el Sensor Kinect"
 collection: publications
 category: theses
-permalink: /publication/2015-bsc-thesis-material-identification-kinect
+permalink: /publication/2015-bsc-thesis-material-identification-kinect/
 excerpt: 'BSc thesis on automatic material identification from Kinect depth and infrared data.'
 date: 2015-01-01
 venue: 'BSc Thesis, Universidad Autónoma de Madrid'

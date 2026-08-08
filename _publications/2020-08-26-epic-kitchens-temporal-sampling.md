@@ -2,7 +2,7 @@
 title: "A Prospective Study on Sequence-Driven Temporal Sampling and Ego-Motion Compensation for Action Recognition in the EPIC-Kitchens Dataset"
 collection: publications
 category: preprints
-permalink: /publication/2020-epic-kitchens-temporal-sampling
+permalink: /publication/2020-epic-kitchens-temporal-sampling/
 excerpt: 'Study of temporal sampling strategies and ego-motion compensation for egocentric action recognition on EPIC-Kitchens.'
 date: 2020-08-26
 venue: 'arXiv preprint arXiv:2008.11588'

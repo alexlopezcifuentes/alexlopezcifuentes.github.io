@@ -2,7 +2,7 @@
 title: "Temporal Sensitivity of TESSERA Embeddings for Land-Cover Classification"
 collection: talks
 type: "Workshop presentation"
-permalink: /talks/2026-06-03-morse-cvpr-tessera
+permalink: /talks/2026-06-03-morse-cvpr-tessera/
 venue: "MORSE Workshop, CVPR 2026"
 date: 2026-06-03
 location: "Denver, Colorado, USA"
@@ -14,4 +14,4 @@ The talk covered how sensitive TESSERA embeddings are to the temporal sampling o
 
 Joint work with Juan Ignacio Bravo Pérez-Villar and Julia Guerrero-Viu at Xoople.
 
-[Read the abstract](/publication/2026-tessera-temporal-sensitivity)
+[Read the abstract](/publication/2026-tessera-temporal-sensitivity/)

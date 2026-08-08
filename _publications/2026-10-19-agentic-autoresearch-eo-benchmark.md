@@ -2,7 +2,7 @@
 title: "Evaluation of Agentic Autoresearch in an Earth Observation Benchmark"
 collection: publications
 category: conferences
-permalink: /publication/2026-agentic-autoresearch-eo-benchmark
+permalink: /publication/2026-agentic-autoresearch-eo-benchmark/
 excerpt: 'The first agentic autoresearch framework for Earth observation model development, with autonomous agents that download, build, train and evaluate models on the PANGAEA benchmark, reaching state of the art on four datasets.'
 date: 2026-10-19
 venue: 'Agentic AI for Earth Observation Workshop (BIFOLD and the European Space Agency), Berlin'

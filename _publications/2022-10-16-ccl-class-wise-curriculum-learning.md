@@ -2,7 +2,7 @@
 title: "CCL: Class-Wise Curriculum Learning for Class Imbalance Problems"
 collection: publications
 category: conferences
-permalink: /publication/2022-ccl-class-wise-curriculum-learning
+permalink: /publication/2022-ccl-class-wise-curriculum-learning/
 excerpt: 'A curriculum learning scheme that schedules training per class rather than per sample, improving performance on strongly imbalanced datasets.'
 date: 2022-10-16
 venue: 'IEEE International Conference on Image Processing (ICIP)'

@@ -2,7 +2,7 @@
 title: "Attention-Based Knowledge Distillation in Scene Recognition: The Impact of a DCT-Driven Loss"
 collection: publications
 category: manuscripts
-permalink: /publication/2023-attention-knowledge-distillation-dct
+permalink: /publication/2023-attention-knowledge-distillation-dct/
 excerpt: 'A DCT-driven loss for attention-based knowledge distillation, letting compact scene-recognition networks inherit the attention maps of much larger teachers.'
 date: 2023-09-01
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology'

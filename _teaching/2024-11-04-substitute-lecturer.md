@@ -2,7 +2,7 @@
 title: "Substitute Lecturer, 2024 to 2025"
 collection: teaching
 type: "Undergraduate teaching"
-permalink: /teaching/2024-substitute-lecturer
+permalink: /teaching/2024-substitute-lecturer/
 excerpt: "Substitute lecturer at the Escuela Politécnica Superior of the Universidad Autónoma de Madrid during the 2024 to 2025 academic year."
 date: 2024-11-04
 venue: "Universidad Autónoma de Madrid, Escuela Politécnica Superior"

@@ -2,7 +2,7 @@
 title: "Visualizing the Effect of Semantic Classes in the Attribution of Scene Recognition Models"
 collection: publications
 category: conferences
-permalink: /publication/2021-visualizing-semantic-classes-attribution
+permalink: /publication/2021-visualizing-semantic-classes-attribution/
 excerpt: 'A perturbation-based attribution method guided by semantic segmentation, explaining which semantic classes a scene recognition CNN actually relies on.'
 date: 2021-01-10
 venue: 'International Conference on Pattern Recognition (ICPR) Workshops, LNCS'

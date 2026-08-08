@@ -2,7 +2,7 @@
 title: "Evaluation of Agentic Autoresearch in an Earth Observation Benchmark"
 collection: talks
 type: "Oral presentation"
-permalink: /talks/2026-10-19-agentic-eo-berlin
+permalink: /talks/2026-10-19-agentic-eo-berlin/
 venue: "Agentic AI for Earth Observation Workshop (BIFOLD and ESA)"
 date: 2026-10-19
 location: "Berlin, Germany"
@@ -14,4 +14,4 @@ On putting an agentic loop in charge of discovering Earth observation models rat
 
 Joint work with Juan Ignacio Bravo Pérez-Villar at Xoople.
 
-[Read the abstract](/publication/2026-agentic-autoresearch-eo-benchmark)
+[Read the abstract](/publication/2026-agentic-autoresearch-eo-benchmark/)

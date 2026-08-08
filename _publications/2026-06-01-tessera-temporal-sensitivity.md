@@ -2,7 +2,7 @@
 title: "Temporal Sensitivity of TESSERA Embeddings for Land-Cover Classification"
 collection: publications
 category: conferences
-permalink: /publication/2026-tessera-temporal-sensitivity
+permalink: /publication/2026-tessera-temporal-sensitivity/
 excerpt: 'How the choice of temporal window affects TESSERA foundation-model embeddings when used for land-cover classification. Extended abstract, MORSE workshop at CVPR 2026.'
 date: 2026-06-01
 venue: 'MORSE Workshop, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'

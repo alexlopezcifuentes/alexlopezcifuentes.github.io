@@ -2,7 +2,7 @@
 title: "Context-Driven Vision for Image and Video Analysis"
 collection: publications
 category: theses
-permalink: /publication/2022-phd-thesis-context-driven-vision
+permalink: /publication/2022-phd-thesis-context-driven-vision/
 excerpt: 'PhD thesis. How contextual and semantic information can be injected into deep models for scene recognition, pedestrian detection and action recognition.'
 date: 2022-06-01
 venue: 'PhD Thesis, Universidad Autónoma de Madrid (Cum Laude)'
