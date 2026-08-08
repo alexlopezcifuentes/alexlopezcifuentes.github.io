@@ -11,13 +11,11 @@ main:
   - title: "Talks"
     url: /talks/
 
-  - title: "CV"
-    url: /cv/
+  - title: "Teaching"
+    url: /teaching/
 
-  # Descomenta cuando tengas contenido en cada seccion:
-  #
-  # - title: "Teaching"
-  #   url: /teaching/
+  # El CV se quito a proposito: duplicaba lo que ya esta en LinkedIn. La pagina
+  # sigue en el historial de git (_pages/cv.md) por si se quiere recuperar.
   #
   # - title: "Blog"
   #   url: /year-archive/

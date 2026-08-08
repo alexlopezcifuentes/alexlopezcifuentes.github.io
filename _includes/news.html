@@ -1,0 +1,51 @@
+{%- comment -%}
+Lista de ultimas noticias, leida de _data/news.yml.
+
+Uso:
+  {% include news.html %}            -> las 5 mas recientes (por defecto)
+  {% include news.html limit=3 %}    -> las 3 mas recientes
+  {% include news.html limit=99 %}   -> todas
+
+Las entradas se ordenan por fecha automaticamente, asi que da igual en que
+orden las escribas en el YAML. La imagen es opcional: si una entrada no lleva
+`image`, el texto simplemente ocupa todo el ancho.
+{%- endcomment -%}
+
+{%- assign news_limit = include.limit | default: 5 -%}
+{%- assign news_items = site.data.news | sort: "date" | reverse -%}
+
+{%- if news_items and news_items.size > 0 -%}
+<ul class="news-list">
+  {%- for item in news_items limit: news_limit -%}
+  <li class="news-list__item">
+    <time class="news-list__date" datetime="{{ item.date | date: '%Y-%m-%d' }}">
+      {{ item.date | date: "%b %Y" }}
+    </time>
+
+    <div class="news-list__body">
+      <div class="news-list__text">
+        {{ item.text | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+      </div>
+
+      {%- if item.image -%}
+        {%- comment -%}
+          Sin `alt` util una imagen decorativa molesta a los lectores de
+          pantalla, asi que si no se define `image_alt` se marca vacia.
+        {%- endcomment -%}
+        {%- capture news_thumb -%}
+          <img class="news-list__thumb"
+               src="{{ item.image | prepend: '/images/news/' | prepend: base_path }}"
+               alt="{{ item.image_alt | default: '' }}"
+               loading="lazy" decoding="async">
+        {%- endcapture -%}
+        {%- if item.url -%}
+          <a class="news-list__thumb-link" href="{{ item.url | prepend: base_path }}">{{ news_thumb }}</a>
+        {%- else -%}
+          {{ news_thumb }}
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+  </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}

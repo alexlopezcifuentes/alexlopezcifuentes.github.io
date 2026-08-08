@@ -1,0 +1,97 @@
+/* ==========================================================================
+   NEWS LIST
+   Lista de ultimas noticias de la portada. Ver _includes/news.html y
+   _data/news.yml.
+   ========================================================================== */
+
+.news-list {
+  margin: 0 0 2em;
+  padding: 0;
+  list-style: none;
+}
+
+.news-list__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15em;
+  padding: 0.7em 0;
+  font-size: $type-size-6;
+
+  & + & {
+    border-top: 1px solid var(--global-border-color);
+  }
+
+  /* A partir de tablet, la fecha se pone en una columna fija a la izquierda
+     para que los textos queden alineados entre si. */
+  @include breakpoint($medium) {
+    flex-direction: row;
+    gap: 1.25em;
+  }
+}
+
+.news-list__date {
+  flex: 0 0 auto;
+  color: var(--global-text-color-light);
+  font-family: $sans-serif-narrow;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+
+  @include breakpoint($medium) {
+    width: 5.5em;
+    text-align: right;
+  }
+}
+
+/* Texto y miniatura.
+   La columna de contenido de este tema es estrecha (unos 550 px en una pantalla
+   de 1200), asi que poner la miniatura al lado del texto solo funciona a partir
+   de $x-large. Por debajo de eso va apilada bajo el texto, que si no el texto
+   se queda en una columna de 250 px y se lee fatal. */
+.news-list__body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+  min-width: 0; /* deja que el texto se ajuste en vez de desbordar el flex */
+
+  @include breakpoint($x-large) {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.25em;
+  }
+}
+
+.news-list__text {
+  flex: 1 1 auto;
+  min-width: 0;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.news-list__thumb-link {
+  flex: 0 0 auto;
+  display: block;
+  line-height: 0; /* quita el hueco bajo la imagen inline */
+}
+
+.news-list__thumb {
+  display: block;
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  background-color: #fff; /* las figuras de los papers tienen fondo blanco */
+
+  @include breakpoint($x-large) {
+    width: 140px;
+  }
+}
+
+.news-list__thumb-link:hover .news-list__thumb {
+  border-color: var(--global-link-color-hover);
+}

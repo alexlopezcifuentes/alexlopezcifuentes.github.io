@@ -1,0 +1,46 @@
+# Ultimas noticias, tal como salen en la portada.
+#
+# Este es el UNICO fichero que hay que tocar para anadir una novedad. No hace
+# falta editar la bio ni ninguna plantilla.
+#
+# Formato de cada entrada. Solo `date` y `text` son obligatorios:
+#
+#   - date: 2026-10-19        <- AAAA-MM-DD. Ordena solo, de mas nueva a mas vieja.
+#     text: >-                <- el >- permite escribir en varias lineas
+#       Texto en Markdown. Se admiten **negritas**, *cursivas* y
+#       [enlaces](https://ejemplo.com).
+#     image: figura.jpg       <- opcional. Fichero dentro de images/news/
+#     image_alt: >-           <- opcional pero recomendable: describe la imagen
+#       Que se ve en la figura, para lectores de pantalla y buscadores.
+#     url: /publication/slug  <- opcional. Hace la miniatura clicable.
+#
+# Para las miniaturas: recorta la figura del paper de forma que se entienda a
+# tamano pequeno (unos 150 px de ancho en pantalla) y exportala a unos 420 px
+# de ancho, que cubre pantallas retina. Mejor una franja apaisada que un
+# cuadrado: las figuras de papers suelen ser anchas.
+#
+# Cuantas se muestran en la portada se controla con `limit` en la llamada a
+# _includes/news.html dentro de _pages/about.md.
+
+- date: 2026-10-19
+  text: >-
+    *Evaluation of Agentic Autoresearch in an Earth Observation Benchmark*
+    accepted as an **oral presentation** at the
+    [Agentic AI for Earth Observation Workshop](https://agentic-eo.berlin/)
+    (BIFOLD and the European Space Agency), Berlin.
+  image: agentic-autoresearch.jpg
+  image_alt: >-
+    Optimisation trajectory of the agentic autoresearch run: a rising green
+    staircase approaching the dashed parity line with the best published model.
+  url: /publication/2026-agentic-autoresearch-eo-benchmark
+
+- date: 2026-06-03
+  text: >-
+    Presented
+    [*Temporal Sensitivity of TESSERA Embeddings for Land-Cover Classification*](/publication/2026-tessera-temporal-sensitivity)
+    at the MORSE workshop at CVPR 2026 in Denver.
+
+- date: 2025-04-01
+  text: >-
+    Joined [Xoople](https://xoople.com) to work on computer vision and deep
+    learning for Earth observation.

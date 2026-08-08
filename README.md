@@ -18,14 +18,31 @@ de datos, no hay servidor, no hay nada que mantener ni actualizar.
 
 | Quiero...                        | Toco...                              |
 |----------------------------------|--------------------------------------|
+| Anadir una noticia               | `_data/news.yml`                     |
 | Anadir un paper                  | un fichero nuevo en `_publications/` |
 | Anadir una charla                | un fichero nuevo en `_talks/`        |
+| Anadir una asignatura            | un fichero nuevo en `_teaching/`     |
 | Editar la bio de la portada      | `_pages/about.md`                    |
-| Editar el CV                     | `_pages/cv.md`                       |
 | Cambiar nombre, redes, tema      | `_config.yml`                        |
 | Cambiar el menu de arriba        | `_data/navigation.yml`               |
 | Subir un PDF                     | `files/` → queda en `/files/loquesea.pdf` |
-| Cambiar la foto                  | `images/profile.png`                 |
+| Cambiar la foto                  | `images/profile.jpg`                 |
+
+## Anadir una noticia
+
+La seccion "Latest news" de la portada sale entera de `_data/news.yml`. Anadir
+una novedad son dos lineas, y **no hay que tocar la bio**: para eso existe esta
+seccion.
+
+```yaml
+- date: 2026-11-02
+  text: >-
+    Texto en Markdown, con **negritas** y [enlaces](https://ejemplo.com).
+```
+
+Se ordenan solas por fecha, de mas nueva a mas vieja, asi que da igual donde la
+pegues dentro del fichero. La portada muestra las 5 mas recientes; ese numero se
+cambia en `_pages/about.md`, en la linea `{% raw %}{% include news.html limit=5 %}{% endraw %}`.
 
 ## Anadir una publicacion
 
@@ -49,7 +66,7 @@ Texto libre en Markdown: resumen, enlace al codigo, figuras, lo que quieras.
 ```
 
 Las categorias y sus titulos se definen en `publication_category` dentro de
-`_config.yml`. El paper aparece solo en `/publications/` y en el `/cv/`.
+`_config.yml`. El paper aparece solo en `/publications/`.
 
 ## Anadir una charla
 
@@ -65,6 +82,24 @@ venue: "Nombre del sitio o del workshop"
 date: 2026-03-15
 location: "Ciudad, Pais"
 ---
+```
+
+## Anadir una asignatura
+
+En `_teaching/AAAA-periodo-slug.md`:
+
+```markdown
+---
+title: "Nombre de la asignatura"
+collection: teaching
+type: "Undergraduate course"      # o "Graduate course", "Workshop", ...
+permalink: /teaching/2026-nombre-asignatura
+venue: "Universidad, Departamento"
+date: 2026-09-01                  # inicio del curso
+location: "Madrid, Spain"
+---
+
+Que se da en la asignatura, tu papel en ella, enlaces a material.
 ```
 
 ## Ver los cambios en local antes de publicar
@@ -124,23 +159,24 @@ Pendiente de hacer a mano (una vez, ver seccion de tareas abajo):
 3. Poner el enlace a la web en LinkedIn, GitHub y Google Scholar. Los enlaces
    entrantes desde perfiles con autoridad son, con diferencia, lo que mas acelera
    el posicionamiento por nombre propio.
-4. Crear un [ORCID](https://orcid.org) y anadirlo a `_config.yml`.
+El ORCID ya esta puesto y enlazado desde el JSON-LD.
 
 ## Estructura del repo
 
 ```
 _config.yml            configuracion global: identidad, redes, SEO, categorias
 _data/navigation.yml   menu de la cabecera
-_pages/                paginas sueltas (portada, CV, listados)
+_pages/                paginas sueltas (portada y listados)
 _publications/         un fichero por paper
 _talks/                un fichero por charla
-_teaching/             un fichero por asignatura (vacio de momento)
+_teaching/             un fichero por asignatura
 _posts/                blog (vacio de momento)
 _includes/             fragmentos HTML del tema
 _layouts/              plantillas de pagina
 _sass/                 estilos
 files/                 PDFs y adjuntos
 images/                imagenes, foto de perfil y favicons
+images/news/           miniaturas de la seccion de noticias
 ```
 
 Para cambiar el aspecto sin tocar CSS, `site_theme` en `_config.yml` acepta
