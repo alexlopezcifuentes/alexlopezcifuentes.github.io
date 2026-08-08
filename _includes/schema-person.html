@@ -1,0 +1,68 @@
+{%- comment -%}
+Datos estructurados schema.org/Person.
+
+Esto es lo que permite que Google entienda que este dominio representa a una
+persona concreta, y que esa persona es la misma que aparece en Google Scholar,
+LinkedIn y GitHub (via "sameAs"). Es la pieza mas importante para posicionar
+por tu propio nombre.
+
+Se alimenta de `site.person`, `site.social` y `site.author` en _config.yml.
+Solo se emite en la portada, para no repetir la entidad en cada URL del sitio.
+{%- endcomment -%}
+{%- if page.url == "/" and site.person -%}
+  {%- assign p = site.person -%}
+  {%- capture person_json -%}
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "{{ site.url }}{{ site.baseurl }}/#person",
+    "name": {{ site.name | jsonify }},
+    {% if p.given_name %}"givenName": {{ p.given_name | jsonify }},{% endif %}
+    {% if p.family_name %}"familyName": {{ p.family_name | jsonify }},{% endif %}
+    {% if p.alternate_names %}"alternateName": {{ p.alternate_names | jsonify }},{% endif %}
+    "description": {{ site.description | jsonify }},
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    {% if site.author.avatar %}"image": "{{ site.url }}{{ site.baseurl }}/images/{{ site.author.avatar }}",{% endif %}
+    {% if site.author.email %}"email": "mailto:{{ site.author.email }}",{% endif %}
+    {% if p.job_title %}"jobTitle": {{ p.job_title | jsonify }},{% endif %}
+    {% if p.works_for %}
+    "worksFor": {
+      "@type": "Organization",
+      "name": {{ p.works_for | jsonify }}{% if p.works_for_url %},
+      "url": {{ p.works_for_url | jsonify }}{% endif %}
+    },
+    {% endif %}
+    {% if p.alumni_of %}
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": {{ p.alumni_of | jsonify }}{% if p.alumni_of_url %},
+      "url": {{ p.alumni_of_url | jsonify }}{% endif %}
+    },
+    {% endif %}
+    {% if site.author.location %}
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": {{ site.author.location | jsonify }}
+    },
+    {% endif %}
+    {% if p.knows_about %}"knowsAbout": {{ p.knows_about | jsonify }},{% endif %}
+    "sameAs": {{ site.social.links | jsonify }}
+  }
+  {%- endcapture -%}
+  <script type="application/ld+json">{{ person_json }}</script>
+
+  {%- comment -%} La web en si, ligada a la persona como autora. {%- endcomment -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "{{ site.url }}{{ site.baseurl }}/#website",
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "name": {{ site.title | jsonify }},
+    "description": {{ site.description | jsonify }},
+    "inLanguage": "en",
+    "author": { "@id": "{{ site.url }}{{ site.baseurl }}/#person" },
+    "publisher": { "@id": "{{ site.url }}{{ site.baseurl }}/#person" }
+  }
+  </script>
+{%- endif -%}

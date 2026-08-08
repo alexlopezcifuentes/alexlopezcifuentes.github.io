@@ -1,33 +1,23 @@
-# The following is the order of the links in the header of the website.
+# Orden de los enlaces en la cabecera del sitio.
 #
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-#
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
+# Quitar un enlace de aqui lo esconde del menu pero NO borra la pagina: sigue
+# existiendo y sigue siendo indexable. Para volver a activar una seccion basta
+# con descomentar su bloque.
 
 main:
   - title: "Publications"
     url: /publications/
 
   - title: "Talks"
-    url: /talks/    
+    url: /talks/
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
   - title: "CV"
     url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+
+  # Descomenta cuando tengas contenido en cada seccion:
+  #
+  # - title: "Teaching"
+  #   url: /teaching/
+  #
+  # - title: "Blog"
+  #   url: /year-archive/

@@ -1,0 +1,12 @@
+---
+# El front matter vacio es necesario para que Jekyll procese las variables de abajo.
+layout: none
+sitemap: false
+---
+# https://alexlopezcifuentes.github.io/robots.txt
+
+User-agent: *
+Allow: /
+
+# El sitemap lo genera el plugin jekyll-sitemap en cada build.
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml

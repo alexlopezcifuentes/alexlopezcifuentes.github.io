@@ -3,6 +3,7 @@ layout: archive
 title: "Sitemap"
 permalink: /sitemap/
 author_profile: true
+sitemap: false  # indice legible, duplica el sitemap.xml
 ---
 
 {% include base_path %}
