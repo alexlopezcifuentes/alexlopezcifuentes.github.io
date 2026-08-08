@@ -16,7 +16,7 @@ redirect_from:
   es una noticia y su sitio es el otro fichero.
 -->
 
-I am **Alex López-Cifuentes**, a Lead Research Scientist at [Xoople](https://xoople.com), where I lead research on computer vision and deep learning for **Earth observation**. I hold a PhD in computer vision from the [Universidad Autónoma de Madrid](https://www.uam.es), and I am based in Madrid, Spain.
+I am **Alex López-Cifuentes**, a Lead Research Scientist at [Xoople](https://www.xoople.es/), where I lead research on computer vision and deep learning for **Earth observation**. I hold a PhD in computer vision from the [Universidad Autónoma de Madrid](https://www.uam.es), and I am based in Madrid, Spain.
 
 My work is about turning raw satellite imagery into representations that are actually useful downstream: foundation models for Earth observation, self-supervised embeddings over multi-modal satellite time series, and the practical question that follows from them — how stable and how transferable are those representations when you push them at real tasks such as land-cover classification and Earth surface monitoring. A second line of work points that question at the research process itself, and asks whether autonomous agents can be put in charge of *discovering* Earth observation models rather than merely applying the ones we already have.
 

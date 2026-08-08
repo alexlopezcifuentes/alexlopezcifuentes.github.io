@@ -28,6 +28,7 @@ author:
   bio              : "Lead Research Scientist at Xoople. Computer vision and deep learning for Earth observation."
   location         : "Madrid, Spain"
   employer         : "Xoople"
+  employer_url     : "https://www.xoople.es/"  # hace clicable el empleador en la barra lateral
   uri              : # URL
   email            : "alex.lopez@xoople.com"
 
@@ -154,7 +155,7 @@ person:
     - "A. López-Cifuentes"
   job_title        : "Lead Research Scientist"
   works_for        : "Xoople"
-  works_for_url    : "https://xoople.com"
+  works_for_url    : "https://www.xoople.es/"
   alumni_of        : "Universidad Autónoma de Madrid"
   alumni_of_url    : "https://www.uam.es"
   knows_about:
