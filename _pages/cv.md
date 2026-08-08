@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-seo_title: "CV — Alex López-Cifuentes, PhD | Computer Vision & Earth Observation"
+seo_title: "CV — Alex López-Cifuentes, PhD · Computer Vision and Earth Observation"
 description: "Curriculum vitae of Alex López-Cifuentes, PhD: Lead Research Scientist at Xoople, computer vision and deep learning for Earth observation."
 permalink: /cv/
 author_profile: true
