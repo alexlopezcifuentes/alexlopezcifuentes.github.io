@@ -137,7 +137,7 @@ atom_feed:
 # google_site_verification: pega aqui el token que te da Google Search Console
 # (Search Console > Añadir propiedad > Prefijo de URL > metodo "Etiqueta HTML";
 #  copia solo el valor del atributo content, sin comillas)
-google_site_verification :
+google_site_verification : "O3dvsKadVpYFS8D2epxplKi7bIOE_Mu87_KIZO8hYX4"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
