@@ -9,4 +9,4 @@ venue: 'BSc Thesis, Universidad Autónoma de Madrid'
 citation: 'Alejandro López-Cifuentes. (2015). &quot;Identificación Automática de Materiales Usando el Sensor Kinect.&quot; BSc Thesis, Universidad Autónoma de Madrid.'
 ---
 
-Bachelor's thesis in Telecommunications Engineering at the Universidad Autónoma de Madrid.
+Bachelor's thesis for the degree in Telecommunication Technologies and Services Engineering at the Universidad Autónoma de Madrid, specialising in signal, audio and video processing and computer vision.

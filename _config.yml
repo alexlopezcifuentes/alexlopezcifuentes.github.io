@@ -37,7 +37,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=syFHdHEAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # TODO: https://orcid.org/XXXX-XXXX-XXXX-XXXX  (créalo en orcid.org, es gratis y ayuda al SEO)
+  orcid            : "https://orcid.org/0000-0002-9113-085X"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
@@ -185,6 +185,7 @@ social:
   name                   : *name
   links:
     - "https://scholar.google.com/citations?user=syFHdHEAAAAJ"
+    - "https://orcid.org/0000-0002-9113-085X"
     - "https://www.linkedin.com/in/alex-lopez-cifuentes-phd-682597a5"
     - "https://github.com/alexlopezcifuentes"
 
