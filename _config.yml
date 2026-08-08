@@ -22,7 +22,7 @@ repository               : "alexlopezcifuentes/alexlopezcifuentes.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Alex López-Cifuentes, PhD"
   pronouns         : # example: "she/her"
   bio              : "Lead Research Scientist at Xoople. Computer vision and deep learning for Earth observation."
@@ -175,7 +175,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "profile.png"  # Imagen por defecto al compartir en redes
+og_image                 : "profile.jpg"  # Imagen por defecto al compartir en redes
 og_description           : *description
 # Perfiles externos. Se emiten como "sameAs" en el JSON-LD: es la senal principal
 # que usa Google para unir esta web con tu Scholar / LinkedIn / GitHub y entender
