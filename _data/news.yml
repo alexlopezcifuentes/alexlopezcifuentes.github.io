@@ -34,6 +34,14 @@
     staircase approaching the dashed parity line with the best published model.
   url: /publication/2026-agentic-autoresearch-eo-benchmark/
 
+- date: 2026-08-27
+  text: >-
+    Preprint out on arXiv.
+    [*Temporal Sensitivity Analysis of Tessera Embeddings*](/publication/2026-tessera-temporal-sensitivity-analysis/),
+    the full-length version of the MORSE workshop abstract, studies how far the
+    observation window can shrink before Tessera embeddings stop working for
+    land-cover mapping.
+
 - date: 2026-06-03
   text: >-
     Presented
