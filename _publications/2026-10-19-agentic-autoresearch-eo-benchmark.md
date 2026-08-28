@@ -6,7 +6,7 @@ permalink: /publication/2026-agentic-autoresearch-eo-benchmark/
 excerpt: 'The first agentic autoresearch framework for Earth observation model development, with autonomous agents that download, build, train and evaluate models on the PANGAEA benchmark, reaching state of the art on four datasets.'
 date: 2026-10-19
 venue: 'Agentic AI for Earth Observation Workshop (BIFOLD and the European Space Agency), Berlin'
-citation: 'Alejandro López-Cifuentes, Juan Ignacio Bravo Pérez-Villar. (2026). &quot;Evaluation of Agentic Autoresearch in an Earth Observation Benchmark.&quot; <i>Agentic AI for Earth Observation Workshop</i>, Berlin. Oral presentation.'
+citation: 'Alex López-Cifuentes, Juan Ignacio Bravo Pérez-Villar. (2026). &quot;Evaluation of Agentic Autoresearch in an Earth Observation Benchmark.&quot; <i>Agentic AI for Earth Observation Workshop</i>, Berlin. Oral presentation.'
 ---
 
 Accepted as an **oral presentation** at the [Agentic AI for Earth Observation Workshop](https://agentic-eo.berlin/), organised by BIFOLD and the European Space Agency in Berlin, from 19 to 21 October 2026.
